@@ -111,7 +111,7 @@ const Users = () => {
 
   const createFoodOrder = async () => {
     try {
-      const { data } = await axios.post('${API_BASE_URL}/user/foodRegister',
+      const { data } = await axios.post(`${API_BASE_URL}/user/foodRegister`,
         createFoodDetail,
         { withCredentials: true }
       );
@@ -132,7 +132,7 @@ const Users = () => {
         }, 2000);
       }
     } catch (err) {
-      console.error(err.response?.data?.msg || err);
+      console.error(err.response?.data?.msg || err.message);
       toast.error('Failed to place food order. Please try again.', {
         position: "bottom-left",
         autoClose: 5000,

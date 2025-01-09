@@ -227,7 +227,7 @@ function UserPage() {
               </Grid>
               <Grid item xs={12}>
                 <Typography variant="body1" gutterBottom>
-                  Upload Trust Document (Image)
+                  Upload User Profile
                 </Typography>
                 <Box
                   sx={{

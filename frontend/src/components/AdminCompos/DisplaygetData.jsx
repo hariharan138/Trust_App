@@ -33,6 +33,7 @@ catch(err){
           <div className={dd.personalDetail}>
               <p   className={dd.field}>Name: <span className={dd.name}>{Name}</span></p>
               <div className={dd.field}>Phone: <span className={dd.phone}> {phone}</span> </div>
+              <div className={dd.field}>Email: <span className={dd.phone}> {email}</span> </div>
               <div className={dd.field}>Address: <span className={dd.address}> {address}</span></div>
           {/* <div className="card-content"> */}
               {/* <p className="card-subtext">{phone}</p> */}
